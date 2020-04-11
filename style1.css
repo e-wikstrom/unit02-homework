@@ -1,0 +1,291 @@
+                                                                                                                                /*** Define entire body color ***/
+                                                                                                                        /*** Define entire body color ***/
+                                                                                                                        
+                                                                                                                        body {
+                                                                                                                            background-color: grey;
+                                                                                                                        }
+                                                                                                                        /*** Global font size ***/
+                                                                                                                        
+                                                                                                                        html {
+                                                                                                                            font-size: 16px;
+                                                                                                                        }
+                                                                                                                        /*** Navbar styling***/
+                                                                                                                        
+                                                                                                                        .navbar {
+                                                                                                                            padding-top: 0;
+                                                                                                                            padding-bottom: 0;
+                                                                                                                            font-size: 1.5rem;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        .navbar-brand {
+                                                                                                                            background-color: teal;
+                                                                                                                            padding: 10px 20px;
+                                                                                                                            font-size: 1.5rem;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        .navbar-light .navbar-brand,
+                                                                                                                        .navbar-light .navbar-brand:hover {
+                                                                                                                            color: white;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        .navbar-nav {
+                                                                                                                            justify-content: center;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        .navbar-nav .navbar-link {
+                                                                                                                            padding: 0 .5rem;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        .nav-item {
+                                                                                                                            border-right: 1px solid #CCC;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        .nav-item:last-child {
+                                                                                                                            border-right: none;
+                                                                                                                        }
+                                                                                                                        /*** Main styling ***/
+                                                                                                                        
+                                                                                                                        main {
+                                                                                                                            background-color: #CCC;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        main .container {
+                                                                                                                            padding-top: 40px;
+                                                                                                                            padding-bottom: 40px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        .content-box {
+                                                                                                                            background-color: white;
+                                                                                                                            padding: 20px;
+                                                                                                                            color: black;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        h1 {
+                                                                                                                            color: rgb(18, 123, 124);
+                                                                                                                            font-size: 2.0rem;
+                                                                                                                            padding-bottom: 0px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        h1:after {
+                                                                                                                            content: "";
+                                                                                                                            display: block;
+                                                                                                                            border: 1px solid lightgrey;
+                                                                                                                            padding-top: 0px;
+                                                                                                                            height: 0px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        img {
+                                                                                                                            padding-top: 50px;
+                                                                                                                            padding-bottom: 10px;
+                                                                                                                            padding-left: 20px;
+                                                                                                                            padding-right: 20px;
+                                                                                                                            background-color: white;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        .box {
+                                                                                                                            position: relative;
+                                                                                                                            display: inline-block;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        .box .text {
+                                                                                                                            position: absolute;
+                                                                                                                            z-index: 999;
+                                                                                                                            margin: 60px auto;
+                                                                                                                            left: 10px;
+                                                                                                                            right: 60px;
+                                                                                                                            text-align: center;
+                                                                                                                            top: 40%;
+                                                                                                                            /* Adjust this value to move the positioned div up and down */
+                                                                                                                            background: teal;
+                                                                                                                            font-family: Arial, sans-serif;
+                                                                                                                            color: #fff;
+                                                                                                                            width: 50%;
+                                                                                                                            /* Set the width of the positioned div */
+                                                                                                                        }
+                                                                                                                        /*** Create two equal columns that float next to each other ***/
+                                                                                                                        
+                                                                                                                        .banner {
+                                                                                                                            background-color: teal;
+                                                                                                                            color: white;
+                                                                                                                            position: absolute;
+                                                                                                                            bottom: 0;
+                                                                                                                            left: 60px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        .column {
+                                                                                                                            float: left;
+                                                                                                                            width: 50%;
+                                                                                                                            padding: 10px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        .column img {
+                                                                                                                            margin-top: 12px;
+                                                                                                                        }
+                                                                                                                        /*** Contact page styling ***/
+                                                                                                                        
+                                                                                                                        .form-control-lg {
+                                                                                                                            height: 9.0em;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        .btn-primary {
+                                                                                                                            background-color: teal;
+                                                                                                                        }
+                                                                                                                        /*** Footer styling ***/
+                                                                                                                        
+                                                                                                                        footer {
+                                                                                                                            text-align: center;
+                                                                                                                            background-color: grey;
+                                                                                                                            border-top: teal 5px solid;
+                                                                                                                            padding-top: 40px;
+                                                                                                                            padding-bottom: 40px;
+                                                                                                                            color: white;
+                                                                                                                            font-size: 1rem;
+                                                                                                                            /*** These rules take effect when the browser's width is either 991px or less. ***/
+                                                                                                                            @media (max-width: 991px) {
+                                                                                                                                .navbar .container-lg, .navbar-brand {
+                                                                                                                                    display: block;
+                                                                                                                                }
+                                                                                                                                .navbar {
+                                                                                                                                    padding: 0: */
+                                                                                                                                }
+                                                                                                                                .navbar-brand {
+                                                                                                                                    margin-right: -1rem;
+                                                                                                                                    margin-left: -1rem;
+                                                                                                                                }
+                                                                                                                                .navbar-nav {
+                                                                                                                                    flex-direction: row;
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                            body {
+                                                                                                                                background-color: grey;
+                                                                                                                            }
+                                                                                                                            /*** Global font size ***/
+                                                                                                                            html {
+                                                                                                                                font-size: 16px;
+                                                                                                                            }
+                                                                                                                            /*** Navbar styling***/
+                                                                                                                            .navbar {
+                                                                                                                                padding-top: 0;
+                                                                                                                                padding-bottom: 0;
+                                                                                                                                font-size: 1.5rem;
+                                                                                                                            }
+                                                                                                                            .navbar-brand {
+                                                                                                                                background-color: teal;
+                                                                                                                                padding: 10px 20px;
+                                                                                                                                font-size: 1.5rem;
+                                                                                                                            }
+                                                                                                                            .navbar-light .navbar-brand,
+                                                                                                                            .navbar-light .navbar-brand:hover {
+                                                                                                                                color: white;
+                                                                                                                            }
+                                                                                                                            .navbar-nav {
+                                                                                                                                justify-content: center;
+                                                                                                                            }
+                                                                                                                            .navbar-nav .navbar-link {
+                                                                                                                                padding: 0 .5rem;
+                                                                                                                            }
+                                                                                                                            .nav-item {
+                                                                                                                                border-right: 1px solid #CCC;
+                                                                                                                            }
+                                                                                                                            .nav-item:last-child {
+                                                                                                                                border-right: none;
+                                                                                                                            }
+                                                                                                                            /*** Main styling ***/
+                                                                                                                            main {
+                                                                                                                                background-color: #CCC;
+                                                                                                                            }
+                                                                                                                            main .container {
+                                                                                                                                padding-top: 40px;
+                                                                                                                                padding-bottom: 40px;
+                                                                                                                            }
+                                                                                                                            .content-box {
+                                                                                                                                background-color: white;
+                                                                                                                                padding: 20px;
+                                                                                                                                color: black;
+                                                                                                                            }
+                                                                                                                            h1 {
+                                                                                                                                color: rgb(18, 123, 124);
+                                                                                                                                font-size: 2.0rem;
+                                                                                                                                padding-bottom: 0px;
+                                                                                                                            }
+                                                                                                                            h1:after {
+                                                                                                                                content: "";
+                                                                                                                                display: block;
+                                                                                                                                border: 1px solid lightgrey;
+                                                                                                                                padding-top: 0px;
+                                                                                                                                height: 0px;
+                                                                                                                            }
+                                                                                                                            img {
+                                                                                                                                padding-top: 50px;
+                                                                                                                                padding-bottom: 10px;
+                                                                                                                                padding-left: 20px;
+                                                                                                                                padding-right: 20px;
+                                                                                                                                background-color: white;
+                                                                                                                            }
+                                                                                                                            .box {
+                                                                                                                                position: relative;
+                                                                                                                                display: inline-block;
+                                                                                                                            }
+                                                                                                                            .box .text {
+                                                                                                                                position: absolute;
+                                                                                                                                z-index: 999;
+                                                                                                                                margin: 60px auto;
+                                                                                                                                left: 10px;
+                                                                                                                                right: 60px;
+                                                                                                                                text-align: center;
+                                                                                                                                top: 40%;
+                                                                                                                                /* Adjust this value to move the positioned div up and down */
+                                                                                                                                background: teal;
+                                                                                                                                font-family: Arial, sans-serif;
+                                                                                                                                color: #fff;
+                                                                                                                                width: 50%;
+                                                                                                                                /* Set the width of the positioned div */
+                                                                                                                            }
+                                                                                                                            /*** Create two equal columns that float next to each other ***/
+                                                                                                                            .banner {
+                                                                                                                                background-color: teal;
+                                                                                                                                color: white;
+                                                                                                                                position: absolute;
+                                                                                                                                bottom: 0;
+                                                                                                                                left: 60px;
+                                                                                                                            }
+                                                                                                                            .column {
+                                                                                                                                float: left;
+                                                                                                                                width: 50%;
+                                                                                                                                padding: 10px;
+                                                                                                                            }
+                                                                                                                            .column img {
+                                                                                                                                margin-top: 12px;
+                                                                                                                            }
+                                                                                                                            /*** Contact page styling ***/
+                                                                                                                            .form-control-lg {
+                                                                                                                                height: 9.0em;
+                                                                                                                            }
+                                                                                                                            .btn-primary {
+                                                                                                                                background-color: teal;
+                                                                                                                            }
+                                                                                                                            /*** Footer styling ***/
+                                                                                                                            footer {
+                                                                                                                                text-align: center;
+                                                                                                                                background-color: grey;
+                                                                                                                                border-top: teal 5px solid;
+                                                                                                                                padding-top: 40px;
+                                                                                                                                padding-bottom: 40px;
+                                                                                                                                color: white;
+                                                                                                                                font-size: 1rem;
+                                                                                                                                /*** These rules take effect when the browser's width is either 991px or less. ***/
+                                                                                                                                @media (max-width: 991px) {
+                                                                                                                                    .navbar .container-lg, .navbar-brand {
+                                                                                                                                        display: block;
+                                                                                                                                    }
+                                                                                                                                    .navbar {
+                                                                                                                                        padding: 0: */
+                                                                                                                                    }
+                                                                                                                                    .navbar-brand {
+                                                                                                                                        margin-right: -1rem;
+                                                                                                                                        margin-left: -1rem;
+                                                                                                                                    }
+                                                                                                                                    .navbar-nav {
+                                                                                                                                        flex-direction: row;
+                                                                                                                                    }
+                                                                                                                                }
